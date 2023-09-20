@@ -1,6 +1,6 @@
 import React from "react";
 import BookCard from "@/components/BookCard";
-import "./Posts.css";
+import "./Books.css";
 const getBookList = async () => {
   const rest = await fetch(
     "https://www.etnassoft.com/api/v1/get/?num_items=100"

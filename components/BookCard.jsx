@@ -28,7 +28,7 @@ const BookCard = ({ book }) => {
       <p>{content_short}</p>
       <section className='book-card-badges-container'>
         <Badge
-          icon={<HiOutlineDocumentText size={20} height={10} />}
+          icon={<HiOutlineDocumentText size={20} />}
           message={pages}
           backgroundColor='#cec9dd'
           textColor='#4b5563'
@@ -40,7 +40,7 @@ const BookCard = ({ book }) => {
           textColor='rgb(240 249 255)'
         />
         <Badge
-          icon={<HiUserCircle size={30} />}
+          icon={<HiUserCircle width={50} height={50} />}
           message={author}
           backgroundColor='rgb(4 120 87)'
           textColor='rgb(209 250 229)'
