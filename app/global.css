@@ -1,0 +1,17 @@
+body {
+    background-color: #202020;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.link:hover {
+    background-color: #10547f7a;
+    border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+.navbar {
+    background: linear-gradient(180deg, #10547f7a .1%, #00000000 90%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    ;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 3rem
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.logo {
+    width: 10rem;
+    height: auto;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-items-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+}
